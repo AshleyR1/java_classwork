@@ -16,7 +16,7 @@ class Main {
    int x1=10;
    int x2=15;
    int Sum=x1+x2;
-   System.out.println("the sum is:" + sum);
+   System.out.println("the sum is:" + Sum);
 
 
 /*  
@@ -26,6 +26,11 @@ class Main {
     calculated sum and then display it.
     
 */
+int g1=90;
+int g2=85;
+int g3=95;
+int sum=g1+g2+g3;
+System.out.println("finalgrade is :" +sum);
 
 
 
