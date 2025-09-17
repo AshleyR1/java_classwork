@@ -52,7 +52,10 @@ System.out.println("finalgrade advrage is :" +sum/3);
     Declare and assign values to any new variables
 
 */
-  
+  int a=25;
+  int x=45;
+  double sumy= a/x+1;
+  System.out.println("y="+ sumy);
 
 /*  
     Challenge 5:
