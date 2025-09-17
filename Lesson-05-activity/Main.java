@@ -54,7 +54,7 @@ System.out.println("finalgrade advrage is :" +sum/3);
 */
   int a=25;
   int x=45;
-  double sumy= a/x+1;
+  double sumy= a/(x+1);
   System.out.println("y="+ sumy);
 
 /*  
