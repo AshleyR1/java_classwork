@@ -29,7 +29,7 @@ class Main {
 int g1=90;
 int g2=85;
 int g3=95;
-int sum=(g1+g2+g3)/3;
+int sum=(g1+g2+g3);
 System.out.println("finalgrade is :" +sum);
 
 
@@ -42,6 +42,8 @@ System.out.println("finalgrade is :" +sum);
     NOTE: Does it look correct, check with a calculator?
 */
 
+
+System.out.println("finalgrade advrage is :" +sum/3);
 
 
 /*  
