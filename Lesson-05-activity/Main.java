@@ -41,9 +41,9 @@ System.out.println("finalgrade is :" +sum);
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
+double avg= sum/3.0;
 
-
-System.out.println("finalgrade advrage is :" +sum/3);
+System.out.println("finalgrade advrage is :" +avg);
 
 
 /*  
@@ -65,7 +65,10 @@ System.out.println("finalgrade advrage is :" +sum/3);
 
 */
  
-
+int x3=50;
+int A= 5;
+double ansy=2*x3(x3+1)*(1/2)/A;
+System.out.println("y="+ansy);
 
 
 
