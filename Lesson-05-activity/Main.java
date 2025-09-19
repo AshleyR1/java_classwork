@@ -67,7 +67,7 @@ System.out.println("finalgrade advrage is :" +avg);
  
 int x3=50;
 int A= 5;
-double ansy=2*x3(x3+1)*(1/2)/A;
+double ansy=(2*x3(x3+1)*(1/2))/A;
 System.out.println("y="+ansy);
 
 
@@ -80,7 +80,10 @@ System.out.println("y="+ansy);
 
     Declare and assign values to any new variables
 */
- 
+ int b=10;
+ int h=12;
+ double area = (1.0/2) *(b*h);
+ System.out.println("area="+area);
 
 
 
@@ -101,7 +104,12 @@ System.out.println("y="+ansy);
     2) Write the java code that will calculate how many eggs
     are left over after we filled as many baskets of 12 eggs.
 */
-
+int hun=100;
+int dos=12;
+int re= 100%12;
+double answer= hun/dos;
+System.out.println("baskets="+ answer);
+System.out.println("left over="+ re);
 
 
 
