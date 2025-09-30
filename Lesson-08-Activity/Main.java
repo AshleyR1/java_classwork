@@ -31,7 +31,7 @@ class Main {
 */
     System.out.print("Enter the radius of the sphere: ");
       double radius = Input.readDouble();
-      double volume = (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+      double volume = (4.0 / 3) * Math.PI * Math.pow(radius, 3);
       System.out.println("Volume of the sphere: " + volume);
 /*  
     Challenge 4:
@@ -41,7 +41,7 @@ class Main {
       double coneRadius = Input.readDouble();
       System.out.print("Enter the height of the cone: ");
       double coneHeight = Input.readDouble();
-      double coneVolume = (1.0 / 3.0) * Math.PI * Math.pow(coneRadius, 2) * coneHeight;
+      double coneVolume = (1.0 / 3) * Math.PI * Math.pow(coneRadius, 2) * coneHeight;
       System.out.println("Volume of the cone: " + coneVolume);
 
 
