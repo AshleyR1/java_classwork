@@ -63,5 +63,5 @@ class Main {
 
 
 }
-   
+ // how to make afunction  return datatype dunction (<dadtatype>) variablie name 
 
