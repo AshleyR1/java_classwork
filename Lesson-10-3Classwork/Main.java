@@ -16,8 +16,17 @@ class Main {
       9 to 16 tickets : each ticket cost $10.50
       over 16 tickts  : each ticket cost $8.50
     */
+   double groupSavings(int tickets){
+if(tickets >=1 && tickets<=8){
+return tickets *11;
+}
+else if(tickets>=9 && tickets <=16){
 
+return tickets*10.50;
   
+  }  else if(tickets>16)
+   return tickets*8.50;
+}
   /*
       Write a function groceryDiscount that takes the total amount spent at 
       a grocery store and the number of cans of beans purchased.
@@ -30,6 +39,18 @@ class Main {
         of beans: $25 savings
         Otherwise: $0 savings.
     */
+   double groceryDiscount(double totalSpent, double numCans){
+      double savings = 0;
+      if(totalSpent >= 100 && totalSpent <= 200 && numCans >= 3){
+        savings = 10;
+      } else if(totalSpent > 200 && numCans > 4){
+        savings = 25;
+      } else {
+        savings = 0;
+      }
+      return savings;
+    }
 
 
 }
+
