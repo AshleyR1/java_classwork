@@ -21,13 +21,15 @@ if(card.substring(0,1).equals("4")){
     } else{
       return "unknown";
     }
-      
-
-
 
     }
     
-  
+  // challange 2
+  String piglatin(String word){
+
+
+    
+  }
   void init(){
    /*String visa ="4";
     String  America Express ="34 || 37";
