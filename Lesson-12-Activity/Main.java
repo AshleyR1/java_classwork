@@ -26,16 +26,26 @@ if(card.substring(0,1).equals("4")){
     
   // challange 2
   String piglatin(String word){
-
-
-    
+  return word.substring(1) + word.substring(0,1) + "ay"; 
   }
+  //challange3
+  String nycLocate(String zip){
+    if (zip.substring(0,3).equals("100") || zip.substring(0,3).equals("101") ||zip.substring(0,3).equals("102")) 
+    return "Manhattan";
+  }
+  //chanllange4
+  String getMonth( String date){
+
+  }
+
+  //chanllange5
+boolean validatepass(string pswd){
+  if(pswd.length()>=5 && pswd.length()<=8 && pswd.indexOf("*")==-1 && pswd.indexOf("^")==-1 && pswd.indexOf(",")==-1)
+  return true;
+}
+
   void init(){
-   /*String visa ="4";
-    String  America Express ="34 || 37";
-    String Diner Club ="36";
-   String Mastercard ="51 || 55";
-    String Discovery ="6011 || 65";*/
+
    
   }
 
