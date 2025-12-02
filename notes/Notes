@@ -1,0 +1,33 @@
+//
+
+in order to use the unqiuo charaters do
+system.out. println('/u possition number)
+
+an arry of charaters for the alpabet fot both lower case and uper case
+sub[]=a,e,i,o,u,
+sub2[]=club.....dikoned
+code:
+//arrays have been crated
+string encode1(String s, char[]sub,char[] sub2){
+    bld="";
+    for(int x=0;x<s.length();x++){
+    char ch=s.charAt(x);
+    bld+=subst(ch,sub,sub2);<---- basicaly if hello and all the vouwles will be replased on whater ever is in sub2 if not then retirn sub
+   // if want to encode it back just switch sub  with sub two in line 15
+    }
+    return bld;
+}
+----------------------------------
+the fouction version of the code above
+char subst(charc,char[] sub, char[] sub2){
+for(int i=0;i<sub.length;i++)
+if(c==sub[i]){
+return sub2[i];
+}
+}
+return c;
+}
+------------------------------------------------------------------------------
+12/2/24
+
+
