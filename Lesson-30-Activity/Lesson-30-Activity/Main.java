@@ -10,7 +10,7 @@ class Main {
   void init(){
 car car1= new car("ford","black","Mustang",2025,31920);
 car car2= new car("jeep","white","2025 jeep wrangler",2025,32095);
-print()
+print(car1);
   }
 
 
