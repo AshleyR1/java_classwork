@@ -15,8 +15,10 @@ class Main {
 
     
     //Create a new student objects 
-  Student p = new Student("harry",10,70.8,90,100,);
-    
+  
+  Student p1 = new Student("harry",10,70.8,90,100,"EEFG7QH","FSFC3","HQFC3TH","PGF43Q3C","SCF43QG",);
+  if(p1.checkcourses("FSFC3")){}
+  Student p2 = new Student("james",9,80.8,70,90,"MRF43","PGF43Q3C","SCF43QG","EEFG7QH"); 
    
     
   }

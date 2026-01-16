@@ -22,12 +22,12 @@ class Student{
 
 
   // class functions
-String checkcourses(){
-if(){
-
-}else{
-  return "false";
+boolean checkcourses(String courses){
+for(int x=0; x<this.courses.length; i++){
+  if(this.courses[x].equals(courses)){
+    return true;
   }
+}
 
 
 }
