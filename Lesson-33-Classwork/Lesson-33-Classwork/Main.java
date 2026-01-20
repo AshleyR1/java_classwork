@@ -9,19 +9,23 @@ class Main {
 
     double[] g1 = {60,70,90};
     double[] g2 = {65,75,60};
-
+    //Create a new student object 
     String[]  courses1  = {"EEFG7QH","FSFC3","HQFC3TH","HUF43X"};
     String[]  courses2  = {"MRF43","PGF43Q3C","SCF43QG","HUF43X"};
 
     
-    //Create a new student objects 
-  
-  Student p1 = new Student("harry",10,g1,courses1);
-  if(p1.checkcourses("FSFC3")){}
-  Student p2 = new Student("james",9,g2,courses2); 
+    //Create a new student object 
+    Student student1 = new Student("Tom",9,g1,courses1);
+    if(student1. calculateAvg().equals)
+    Student student2 = new Student("Jerry",11,g2,courses2);
+
    
-    
   }
+
+
+
+
+
 
 
   
