@@ -10,23 +10,13 @@ class Main {
     CreateList list=new CreateList("CR101.csv");
     Student[] students = list.getStudentArray();
 
-    double sum=o;
-    for(int x=0;x<Students.length,i++){
-    Student student= Students[x];
-    sum+= Student.gpa;
-    print((school avg+sum/"Student.length"));
-  }
-    for(int x=1,x<Students;lenthi,x++){
-    Student summer =Sudents[x];
-    if(Student.find teacher("castro r")){
-       Count +=1;
-    }
-   Print(count+"have mr castro");
-  }
- 
+    // add your code below here
 
-}
- 
+    
+    
+    
+  }
+
 
 
 
